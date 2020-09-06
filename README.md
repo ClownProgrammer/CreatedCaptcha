@@ -39,5 +39,10 @@ let Captcha = newCaptcha.CreatedCaptha() //создает капчу
 //Captcha.image - Сама картинка в баффере
 //Captcha.text - Ответ на капчу (строка)
 ```
+
+
 > Пояснение: Если вы делаете ботов для вк и используете [vk-io](https://www.npmjs.com/package/vk-io), то для отправки картинки используйте метод context.sendPhoto(Captcha.image)
 На этом у нас все
+
+На этом у нас все. Это 1.0.0 версия. Учьтите, что это пока что стартовая версия и могут быть баги и недоработки.
+О багах пишите в комментариях, мне на [почту](mailto:clownprogrammer@gmail.com) или же мне в [ВК](https://vk.com/clownprogrammer)
