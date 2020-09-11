@@ -42,10 +42,10 @@ let options = {
   // 'all'\true - все шрифты в папке, 'none'\false\1 - использовать 1 шрифт
   SymbolsUsed: ["A","B" ... 8,9,0] //массив символов которые будут использоваться
 }
-let newCaptcha = CreatedCaptcha.NewCaptcha(options)
+let newCaptcha = CreatedCaptcha.NewCaptcha(options) //{image: <Buffer с картинкой>, text: Ответ на капчу (строчка)}
 
 ```
-> Пояснение: Если вы делаете ботов для вк и используете [vk-io](https://www.npmjs.com/package/vk-io), то для отправки картинки используйте метод context.sendPhoto(Captcha.image)
+> Пояснение: Если вы делаете ботов для вк и используете [vk-io](https://www.npmjs.com/package/vk-io), то для отправки картинки используйте метод context.sendPhoto(newCaptcha.image)
 
 ## Добавление своих шрифтов и фонов
 ***
